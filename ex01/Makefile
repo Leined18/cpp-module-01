@@ -1,7 +1,7 @@
 NAME = test.a
 CPP = c++
 CPPFLAGS = -Werror -Wextra -Wall -std=c++98 -g3 -fsanitize=address 
-FILES = Zombie.cpp main.cpp newZombie.cpp randomChump.cpp
+FILES = Zombie.cpp main.cpp zombieHorde.cpp
 HEADERS = Zombie.hpp 
 OBJDIR = obj
 
